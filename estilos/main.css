@@ -51,6 +51,7 @@ div#login h1{
 div#login p{
     font-size: 0.8em;
     padding: 5px;
+    text-align: center;
 }
 div.email{
     background-color: gray;
@@ -58,16 +59,52 @@ div.email{
     font-weight: bold;
     border-radius: 5px;
     height: 100%;
+    margin: 10px;
+    padding: 5px;
+    height: 30px;
 }
 
 
-div.email input[type=email]{
+div.email input.scrr{
+       background-color: white;
+       font-size: 1em;
+       height: 90%;
+       width: calc(100% - 60px);
+       border-radius: 5px;
+       padding: 4px;
+       
 
-    background-color: rgb(252, 219, 219);
-    
+      position: relative;
+        transform: translate(52px, -25px);
+        
+        
+    }
+
+form input[type=submit] {
+    display: block;
+    width: 100%;
+    height: 40px;
+    margin-top: -10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+   
 }
-
-
+form input[type=submit]:hover{
+    background-color: rgb(49, 49, 49);
+    color: white;
+}
+div#asenha p{
+    color: black;
+} 
+div#asenha a{
+    text-decoration: underline;
+    color: black;
+}
+div#asenha a:hover{
+    color:rgb(83, 2, 2) ;
+}
 
     
     

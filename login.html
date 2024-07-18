@@ -19,19 +19,23 @@
             <h1>Login</h1>
             <p>Seja bem-vindo! Faça o login para continuar.</p>
 
-            <div class="email">
+            <form action="cadastro.php" method="post" autocomplete="on">
+                <div class="email">
+                    <label for="iemail">Email:</label>
+                    <input class="scrr" type="email" name="email" id="iemail" required placeholder="   Insira seu email."  autocomplete="email">
+                </div>
+                <div id="asenha" class="email">
+                    <label for="isenha">Senha:</label>
+                    <input class="scrr" type="password" name="senha" id="isenha" required minlength="6" maxlength="15" placeholder="  Insira sua senha." autocomplete="current-password"> 
 
-                <label for="iemail">Email:</label>
-                <input type="email" name="email" id="iemail" required placeholder="Insira seu email." >
+                    <input  type="submit" value="Enviar"> 
+                    <p>Esqueceu a senha?<a href="#">  Clique aqui!</a></p>
+                </div>
+                
 
-            </div>
+                
 
-
-            <div id="asenha" class="email">
-                <label for="isenha">Senha:</label>
-                <input type="password" name="senha" id="isenha" required minlength="6" maxlength="20" placeholder="Insira sua senha">
-            </div>
-        
+            </form>
 
 
 
