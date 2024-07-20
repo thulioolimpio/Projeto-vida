@@ -9,42 +9,42 @@
     <link rel="stylesheet" href="estilos/mediaq.css">
 </head>
 <body>
-    <section>
-        <div id="imagem">
-
-        </div>
-
-        <div id="login">
-
-            <h1>Entrar</h1>
+    <header>
+        
+    </header>
+    <main>
+        <section>
+            <div id="imagem">
+            </div>
+            <div id="login">
+                <h1>Entrar</h1>
+        
+                <form action="cadastro.php" method="post" autocomplete="on">
+                    <div class="email">
+                        <label for="iemail"></label>
+                        <input class="scrr" type="email" name="email" id="iemail" required placeholder="  Insira seu email."  autocomplete="email">
+                    </div>
+                    <div id="asenha" class="email">
+                        <label for="isenha"></label>
+                        <input class="scrr" type="password" name="senha" id="isenha" required minlength="6" maxlength="15" placeholder="  Insira sua senha." autocomplete="current-password">
+                        <input  type="submit" value="Entrar">
+                        <p>Esqueceu a senha?<a id="link" href="#">  Clique aqui!</a></p>
+                        <p>OU</p>
+                        <p id="ai"><a href="#"> Clique aqui para se cadastrar!</a></p>
+                        <p id="check"><input type="checkbox" name="a" id="ia">
+                        <label for="ia">Lembre-se de mim.</label></p>
+                    </div>
+        
+        
+                </form>
+                
+            </div>
             
+        </section>
+    </main>
+    
 
-            <form action="cadastro.php" method="post" autocomplete="on">
-                <div class="email">
-                    <label for="iemail"></label>
-                    <input class="scrr" type="email" name="email" id="iemail" required placeholder="  Insira seu email."  autocomplete="email">
-                </div>
-                <div id="asenha" class="email">
-                    <label for="isenha"></label>
-                    <input class="scrr" type="password" name="senha" id="isenha" required minlength="6" maxlength="15" placeholder="  Insira sua senha." autocomplete="current-password"> 
-
-                    <input  type="submit" value="Enviar"> 
-                    <p>Esqueceu a senha?<a href="#">  Clique aqui!</a></p>
-                    <p id="ai"><a href="#"> Clique aqui para se cadastrar!</a></p>
-                </div>
-                
-
-                
-
-            </form>
-
-
-
-
-
-
-        </div>
-    </section>
+    
     
 </body>
 </html>
