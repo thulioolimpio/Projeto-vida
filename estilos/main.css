@@ -164,11 +164,34 @@ p input#ia{
     
  }
  footer{
-    height: 300px;
+    height: 150px;
     width: 100vw;
     background-color: black;
-    margin-top: 200px;
+    margin-top: 650px;
  }
-
+ footer p a{
+    text-decoration: none;
+    color: #EE3442;
+    margin: 5px;
+    
+    
+    
+    
+ }
+ i.fa{
+    height: 40px;
+    width: 25px;
+    color: #EE3442;
+    
+ }
+ i.material-icons{
+    text-align: center;
+    height: 40px;
+    width: 28px;
+    font-size: 24px;
+    color: #EE3442;
+    
+ }
+ 
     
     
