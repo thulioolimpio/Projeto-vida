@@ -2,9 +2,12 @@
 
 @media screen and (min-width:768px) and (max-width:992px) {
     html{
-        background-image: linear-gradient(to bottom,black,#ee34437e);
+        background-color: black;
         
         
+    }
+    body{
+        background-image: linear-gradient(to bottom,black,#ee34437e)
     }
     section{
         height: 550px;
