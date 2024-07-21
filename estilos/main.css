@@ -19,11 +19,12 @@ html{
     width: 100vw;
     background-color: black;
     background-attachment: fixed;
-    position: relative;
+    
 }
 main{
     width: 100vw;
     height: 700px;
+    position: relative;
     
 }
 

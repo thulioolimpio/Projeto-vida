@@ -67,7 +67,7 @@
         top: 50%;
         left: 50%;
     
-        transform: translate(-50%,-20%);
+        transform: translate(-50%,-50%);
         
         
     }
@@ -84,7 +84,7 @@
     div#login h1{
         text-align: left;
         font-size: 2em;
-        margin-top: -100px;
+        
         
 
         padding-bottom: 30px;
@@ -97,7 +97,7 @@
     section div#login{
         
         width: 100%;
-        margin-top: 150px;
+        
     
     }
     p#check{
