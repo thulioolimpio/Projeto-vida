@@ -26,7 +26,8 @@
         background-repeat: no-repeat;
     }
     main{
-        
+        height: 1200px;
+        margin-bottom: 100px;
     }
     div#login h1{
         text-align: left;
