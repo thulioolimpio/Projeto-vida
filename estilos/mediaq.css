@@ -3,17 +3,22 @@
 @media screen and (min-width:768px) and (max-width:992px) {
     html{
         background-image: linear-gradient(to bottom,black,#ee34437e);
+        position: relative;
         
     }
     section{
         height: 550px;
         width: 350px;
-        margin-top: 100px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    
+        transform: translate(-50%, 0%);
 
     }
     header{
         width: 100vw;
-        height: 150px;
+        height: 100vh;
         
         
         background-image: url(../imagens/png-removebg-preview.png);
@@ -53,11 +58,17 @@
 @media screen and (min-width:992px){
     html{
         background-image: linear-gradient(to bottom,black,#ee34437e);
+        position: relative;
     }
     section{
         height: 580px;
         width: 400px;
-        margin-top: 150px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+    
+        transform: translate(-50%,-20%);
+        
         
     }
     header{
