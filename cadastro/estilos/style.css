@@ -40,7 +40,7 @@ main{
 }
 section{
     height: 500px;
-    width: 450px;
+    width: 90vw;
     background-color: rgba(255, 255, 255, 0.514);
     border: 1px solid black;
     border-radius: 5px;
@@ -155,6 +155,9 @@ i.fa{
     
     
  }
+
+    
+
  
 
 

@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+@media screen and (min-width:500px){
+    section{
+        width: 450px;
+    }
+    
+}
