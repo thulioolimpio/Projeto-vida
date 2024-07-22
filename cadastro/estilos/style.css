@@ -98,7 +98,7 @@ form input{
 input[type=submit]{
     
     margin-bottom: 40px;
-    background-color: rgb(156, 155, 155);
+    background-color: rgb(99, 98, 98);
     color: white;
     font-size: 1.3em;
     cursor: pointer;
