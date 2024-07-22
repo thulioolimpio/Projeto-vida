@@ -108,6 +108,7 @@ div.email input.scrr{
        width: calc(100%);
        border-radius: 5px;
        padding: 4px;
+       padding-left: 10px;
        
 
       position: relative;
@@ -171,7 +172,7 @@ p input#ia{
     accent-color: #f5002f;
 }
 ::-webkit-input-placeholder {
-    color: black;
+   color: black;
  }
  p#check{
     margin-top: 10px;
@@ -200,6 +201,7 @@ p input#ia{
     height: 40px;
     width: 25px;
     color: #f5002f;
+    margin-left: 5px;
     
  }
  i.material-icons{
@@ -208,6 +210,7 @@ p input#ia{
     width: 28px;
     font-size: 24px;
     color: #f5002f;
+    
     
  }
 #sai{

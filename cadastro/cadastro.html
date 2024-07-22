@@ -16,23 +16,32 @@
         <section>
             <p id="p1">Criar uma nova conta</p>
             <p id="p2">É rápido e fácil</p>
+            <hr>
             <form action="cadastro.php">
                 <label for="inome"></label>
-                <input type="text" name="nome" id="inome">
+                <input class="nome" placeholder="Nome"  required="text" name="nome" id="inome">
                 <label for="isobrenome"></label>
-                <input type="text" name="sobrenome" id="isobrenome"> <br>
+                <input class="nome"  placeholder="Sobrenome" required type="text" name="sobrenome" id="isobrenome"> <br>
                 <label for="inumero"></label>
-                <input type="number" name="numero" id="inumero"><br>
+                <input type="text"  placeholder="Celular"  requiredname="numero" id="inumero"><br>
                 <label for="iemail"></label>
-                <input type="email" name="email" id="iemail"><br>
+                <input type="email" name="email" required id="iemail" placeholder="seunome@exemplo.com"><br>
                 <label for="idata"></label>
-                <input type="date" name="data" id="idata"> <br>
-                <label for="imasculino">Masculino</label>
-                <input type="radio" name="masculino" id="imasculino">
-                <label for="ifeminino">Feminino</label>
-                <input type="radio" name="feminino" id="ifeminino">
-                <label for="ipersonalizado">Personalizado</label>
-                <input type="radio" name="personalizado" id="ipersonalizado"> <br>
+                <input type="date" name="data" required id="idata"> <br>
+                
+                    <div class="radio">
+                        <label  for="imasculino">Masculino</label>
+                        <input type="radio" required name="masculino" id="imasculino">
+                    </div>
+                    <div class="radio">
+                        <label  for="ifeminino">Feminino</label>
+                        <input type="radio" required name="feminino" id="ifeminino">
+                    </div>
+                    <div class="radio">
+                        <label  for="ipersonalizado">Personalizado</label>
+                        <input type="radio" required name="personalizado" id="ipersonalizado">
+                    </div>
+                 <br>
 
                 <input type="submit" value="Cadastre-se">
                 <p><a href="../index.html">Já tem uma conta?</a></p>
