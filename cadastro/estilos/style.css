@@ -45,7 +45,7 @@ main{
 section{
     height: 600px;
     width: 100vw;
-    background-color: rgba(255, 255, 255, 0.514);
+    background-color: rgb(245, 243, 243);
     border: 1px solid black;
     border-radius: 5px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.247);
