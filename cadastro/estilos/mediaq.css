@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width:505px){
+@media screen and (min-width:576px){
     section{
         width: 500px;
         height: 600px;
