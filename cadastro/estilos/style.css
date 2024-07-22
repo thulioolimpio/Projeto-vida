@@ -8,6 +8,7 @@
     ::-webkit-scrollbar{
         height: 0px;
         width: 0px;
+        font-size: 1em;
     }
 
 }
@@ -57,7 +58,7 @@ input.nome{
     width: 42%;
     height: 40px;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 40px;
     padding-left: 10px;
     
 }
@@ -88,22 +89,10 @@ form input{
     
     
 }
-form input[type=radio]{
-    height: 15px;
-    width: 15px;
-    border: 1px solid black;
-    
-}
-div.radio{
-    display: inline-block;
-    border: 1px solid black;
-    margin:5px 10px ;
-    border-radius: 5px;
-    height: 30px;  
 
-}
+
 input[type=submit]{
-    margin-top: 20px;
+    
     margin-bottom: 20px;
     background-color: rgb(156, 155, 155);
     color: white;
@@ -152,10 +141,7 @@ i.fa{
     height: 40px;
     width: 28px;
     font-size: 24px;
-    
-    
  }
-
     
 
  
