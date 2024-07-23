@@ -1,0 +1,205 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Montserrat", sans-serif;
+    ::-webkit-scrollbar{
+        height: 0px;
+        width: 0px;
+        font-size: 1em;
+    }
+}
+html{
+    background-color:rgb(41, 41, 41);;
+    height: 100vh;
+    width: 100vw;
+    background-attachment: fixed;
+}
+body{
+    background-color:white;
+    height: 100vh;
+    width: 100vw;
+}
+header{
+    display: block;
+    background-color:rgb(41, 41, 41) ;
+    background-image: url(../imagens/icone-removebg-preview.png);
+    height: 100px;
+    width: 100px;
+    background-size: 70px ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 50%;
+     margin: auto;
+     
+     
+     
+    
+}
+main{
+    
+    background-color: white;
+    width: 100vw;
+    height: 400px;
+
+    position: relative;
+   
+}
+section{
+    
+   
+    height: 300px;
+    width: 100vw;
+    background-color:white;
+    
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+    
+}
+section h1{
+    margin: 20px;
+}
+form p{
+    text-align: center;
+    margin-top: 20px;
+}
+form input{
+    margin: 20px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid black;
+    width: 90%;
+    padding-left:10px;
+}
+
+div input{
+    height: 40px;
+    width: 30%;
+    margin: 30px 2px ;
+    cursor: pointer;
+    background-color: white;
+    font-weight: bold;
+    
+}
+div a{
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 0.9em;
+    border-radius: 5px;
+    height: 30px;
+    width: 30%;
+    padding-top: 10px;
+    padding-bottom: -10px;
+    font-weight: bold;
+    
+    
+    cursor: pointer;
+    margin-left: 80px;
+    border: 1px solid black;
+}
+div a:hover{
+    background-color:rgb(41, 41, 41) ;
+    color: #f5002f;
+    
+}
+
+div input:hover{
+    background-color:rgb(41, 41, 41) ;
+    color: #f5002f;
+}
+
+footer p a{
+    text-decoration: none;
+    color: black;
+    
+}
+i.fa{
+    height: 40px;
+    width: 25px;
+    margin-left: 5px;
+    
+    
+ }
+ i.material-icons{
+    text-align: center;
+    height: 40px;
+    width: 28px;
+    font-size: 24px;
+ }
+ footer{
+    background-color: rgb(41, 41, 41);;
+    height: 200px;
+    padding-top: 10px;
+
+}
+footer p a{
+    text-decoration: none;
+    color: black;
+    
+}
+i.fa{
+    height: 40px;
+    width: 25px;
+    margin-left: 5px;
+    
+    
+ }
+ i.material-icons{
+    text-align: center;
+    height: 40px;
+    width: 28px;
+    font-size: 24px;
+ }
+
+
+
+
+ @media screen and (min-width:576px) {
+    body{
+        background-color: rgb(41, 41, 41);
+    }
+    header{
+        background-image: url(imagens/imagens/png-removebg-preview.png);
+        background-color:rgb(41, 41, 41);
+        background-repeat: no-repeat;
+        background-position: left left;
+        background-size: 400px;
+        border-radius: 0px;
+        width: 300px;
+        height:150px;
+        margin: 10px;
+    }
+    section{
+        
+            height: 320px;
+            width: 500px;
+            background-color: rgb(245, 243, 243);
+            border: 1px solid black;
+            border-radius: 5px;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.247);
+            
+        
+            position: absolute;
+            top: 50%;
+            left: 50%;
+        
+            transform: translate(-50%,-50%);
+            
+        
+    }
+    main{
+        height: 400px;
+    }
+    input#att{
+        margin-left: 180px;
+    }
+ }
