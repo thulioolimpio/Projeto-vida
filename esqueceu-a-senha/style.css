@@ -92,6 +92,7 @@ input[type=submit]{
     margin: 35px 2px ;
     cursor: pointer;
     background-color: white;
+    color: black;
     font-weight: bold;
     padding-left: 0px;
 
