@@ -96,6 +96,9 @@ input[type=submit]{
     font-weight: bold;
     padding-left: 0px;
 
+    position:relative;
+    top: 2px;
+
   
 }
  a#voltar{
@@ -103,6 +106,7 @@ input[type=submit]{
     text-align: center;
     text-decoration: none;
     color: black;
+    background-color: white;
     font-size: 0.8em;
     border-radius: 5px;
     height: 28px;
@@ -213,6 +217,15 @@ i.fa{
     main{
         height: 700px;
     }
+    
+input[type=submit]{
+  
+
+    position:relative;
+    top: 2px;
+
+  
+}
     input#att{
         margin-left: 180px;
     }
