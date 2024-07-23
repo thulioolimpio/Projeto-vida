@@ -93,9 +93,10 @@ input[type=submit]{
     cursor: pointer;
     background-color: white;
     font-weight: bold;
+    padding-left: 0px;
 
     position: relative;
-    top:-15px;
+    top:2px;
     
 }
  a#voltar{
