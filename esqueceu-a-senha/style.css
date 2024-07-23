@@ -10,7 +10,7 @@
    
 }
 ::-webkit-scrollbar{
-    height: 0px;
+   
     width: 0px;
     
 }
@@ -19,7 +19,7 @@ html{
     height: 100vh;
     width: 100vw;
     background-attachment: fixed;
-    overflow: hidden;
+    
 }
 body{
     background-color:white;
@@ -152,6 +152,10 @@ i.fa{
 footer p a{
     text-decoration: none;
     color: white;
+    
+}
+footer p a:hover{
+    text-decoration: underline;
     
 }
 i.fa{
