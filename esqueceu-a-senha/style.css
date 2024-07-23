@@ -49,7 +49,7 @@ main{
     
     background-color: white;
     width: 100vw;
-    height: 600px;
+    height: 500px;
 
     position: relative;
    
@@ -207,7 +207,7 @@ i.fa{
     section{
         
             height: 320px;
-            width: 500px;
+            width: 600px;
             background-color: rgb(245, 243, 243);
             border: 1px solid black;
             border-radius: 5px;
@@ -223,7 +223,7 @@ i.fa{
         
     }
     main{
-        height: 700px;
+        height: 500px;
     }
     
     input#att{
