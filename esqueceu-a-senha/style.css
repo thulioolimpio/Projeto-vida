@@ -218,14 +218,6 @@ i.fa{
         height: 700px;
     }
     
-input[type=submit]{
-  
-
-    position:relative;
-    top: 2px;
-
-  
-}
     input#att{
         margin-left: 180px;
     }
