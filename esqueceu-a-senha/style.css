@@ -6,11 +6,12 @@
     margin: 0px;
     padding: 0px;
     font-family: "Montserrat", sans-serif;
-    ::-webkit-scrollbar{
-        height: 0px;
-        width: 0px;
-        font-size: 1em;
-    }
+   
+}
+::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+    font-size: 1em;
 }
 html{
     background-color:rgb(41, 41, 41);;
@@ -93,7 +94,7 @@ div a{
     text-align: center;
     text-decoration: none;
     color: black;
-    font-size: 0.9em;
+    font-size: 0.8em;
     border-radius: 5px;
     height: 30px;
     width: 30%;

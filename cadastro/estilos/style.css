@@ -5,12 +5,13 @@
     margin: 0px;
     padding: 0px;
     font-family: "Montserrat", sans-serif;
-    ::-webkit-scrollbar{
-        height: 0px;
-        width: 0px;
-        font-size: 1em;
-    }
+  
 
+}
+::-webkit-scrollbar{
+    height: 0px;
+    width: 0px;
+    font-size: 1em;
 }
 html{
     background-color:rgb(99, 98, 98);
