@@ -6,13 +6,13 @@
     margin: 0px;
     padding: 0px;
     font-family: "Montserrat", sans-serif;
-    overflow: hidden;
+    
    
 }
 ::-webkit-scrollbar{
     height: 0px;
     width: 0px;
-    font-size: 1em;
+    
 }
 html{
     background-color:rgb(41, 41, 41);
