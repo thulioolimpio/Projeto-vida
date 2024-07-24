@@ -147,6 +147,10 @@ footer p a{
     color: white;
     
 }
+footer p a:hover{
+    text-decoration: underline;
+   
+}
 i.fa{
     height: 40px;
     width: 25px;
