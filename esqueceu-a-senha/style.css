@@ -80,7 +80,7 @@ form p{
 }
 
 form input{
-    margin: 20px;
+    margin: 18px;
     height: 45px;
     border-radius: 5px;
     border: 1px solid black;
@@ -95,7 +95,7 @@ form div{
 input[type=submit]{
     display: inline-block;
     height: 40px;
-    width: 20%;
+    width: 20.4%;
     margin: 0px;
     
     cursor: pointer;
@@ -116,7 +116,7 @@ input[type=submit]{
     text-decoration: none;
     color: black;
     background-color: white;
-    font-size: 0.8em;
+    font-size: 0.78em;
     border-radius: 5px;
     height: 28px;
     width: 20%;
