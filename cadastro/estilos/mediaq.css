@@ -1,9 +1,26 @@
 @charset "UTF-8";
 
 @media screen and (min-width:576px){
+    header{
+        display: block;
+        
+        background-image: url(../imagens/imagens/png-removebg-preview.png);
+        background-color: rgb(41, 41, 41);
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: 350px;
+        
+        width: 100vw;
+        height: 150px;
+        
+
+    }
     section{
         width: 500px;
         height: 600px;
+    }
+    div#imagem{
+        display: none;
     }
     main{
         height: 700px;

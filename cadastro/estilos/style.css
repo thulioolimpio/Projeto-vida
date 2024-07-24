@@ -25,26 +25,19 @@ body{
     width: 100vw;
 }
 header{
-    background-image: url(../imagens/imagens/png-removebg-preview.png);
-    background-color: rgb(41, 41, 41);
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 350px;
-    
-    width: 100vw;
-    height: 150px;
+   display: none;
 }
 main{
     
     background-color: white;
     width: 100vw;
-    height: 600px;
+    height: 700px;
 
     position: relative;
    
 }
 section{
-    height: 600px;
+    height: 700px;
     width: 100vw;
     background-color: rgb(245, 243, 243);
     border: 1px solid black;
@@ -57,6 +50,25 @@ section{
     left: 50%;
 
     transform: translate(-50%,-50%);
+    
+}
+div#imagem{
+    display: block;
+    background-color: rgb(41, 41, 41);
+    background-image: url(../imagens/imagens/icone-removebg-preview.png);
+    height: 100px;
+    width: 100px;
+    background-size: 70px ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    border-radius: 50%;
+     margin: auto;
+     margin-bottom: 40px;
+     
+     
+    
+     
+     
     
 }
 input.nome{
@@ -131,7 +143,7 @@ footer{
 }
 footer p a{
     text-decoration: none;
-    color: black;
+    color: white;
     
 }
 i.fa{
