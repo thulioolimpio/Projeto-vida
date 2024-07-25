@@ -1,239 +1,170 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
-
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
     font-family: "Montserrat", sans-serif;
-    
-   
 }
-::-webkit-scrollbar{
-   
-    width: 0px;
-    
+
+::-webkit-scrollbar {
+    width: 0;
 }
-html{
-    background-color:rgb(41, 41, 41);
-    height: 100vh;
-    width: 100vw;
+
+html, body {
+    background-color: rgb(41, 41, 41);
+    height: 100%;
+    width: 100%;
     background-attachment: fixed;
-    
 }
-body{
-    background-color:rgb(41, 41, 41) ;
-    height: 100vh;
-    width: 100vw;
-}
-div#imagem{
+
+div#imagem {
     display: block;
     background-color: rgb(41, 41, 41);
     background-image: url(../imagens/icone-removebg-preview.png);
     height: 100px;
     width: 100px;
-    background-size: 70px ;
+    background-size: 70px;
     background-repeat: no-repeat;
     background-position: center center;
     border-radius: 50%;
-     margin: auto;
-     margin-bottom: 40px;
-     
-     
-    
-     
-     
-    
+    margin: 40px auto;
 }
-main{
-    
+
+main {
     background-color: white;
     width: 100vw;
+ 
     height: 500px;
-
+    margin: 0 auto;
     position: relative;
-   
 }
-section{
-    
-   
+
+section {
+    background-color: white;
     height: 450px;
-    width: 100vw;
-    background-color:white;
-    
-    
-
-    position: absolute;
-    top: 50%;
-    left: 50%;
-
-    transform: translate(-50%,-50%);
-    
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
 }
-section h1{
-    margin: 20px;
+
+section h1 {
+    margin: 20px 0;
     font-size: 1.5em;
 }
-form p{
+
+form p {
     text-align: center;
     margin-top: 20px;
 }
 
-form input{
-    margin: 18px;
-    height: 45px;
-    border-radius: 5px;
+input[type=email] {
+    width: 100%;
     border: 1px solid black;
-    width: 90%;
-    padding-left:10px;
+    border-radius: 5px;
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 20px;
 }
-form div{
+
+form div {
     margin-top: 50px;
     display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-left: 220px;
 }
 
-input[type=submit]{
+input[type=submit], a#voltar {
     display: inline-block;
     height: 40px;
-    width: 20.4%;
-    margin: 0px;
-    
-    cursor: pointer;
-    background-color: white;
-    color: black;
-    font-weight: bold;
-    padding-left: 0px;
-    margin: 5px 40px;
-    flex: auto;
-
-  
-
-  
-}
- a#voltar{
-    display: inline-block;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    background-color: white;
-    font-size: 0.78em;
-    border-radius: 5px;
-    height: 28px;
     width: 20%;
-    padding-top: 10px;
-    margin: 5px 40px;
-    flex: auto;
-    
-    
-    font-weight: bold;
-    
-    
+    margin: 5px;
     cursor: pointer;
-    
+    background-color: white;
+    color: black;
+    font-weight: bold;
     border: 1px solid black;
-}
- a#voltar:hover{
-    background-color:rgb(41, 41, 41) ;
-    color: #f5002f;
-    
-}
-
-input[type=submit]:hover{
-    background-color:rgb(41, 41, 41) ;
-    color: #f5002f;
-}
-
-
-i.fa{
-    height: 40px;
-    width: 25px;
-    margin-left: 5px;
-    
-    
- }
- i.material-icons{
+    border-radius: 5px;
     text-align: center;
+    line-height: 40px;
+    flex: auto; 
+}
+
+input[type=submit]:hover, a#voltar:hover {
+    background-color: rgb(41, 41, 41);
+    color: #f5002f;
+}
+a#voltar{
+    text-decoration: none;
+    height: 38px;
+    font-size: 0.8EM;
+}
+
+i.fa, i.material-icons {
     height: 40px;
     width: 28px;
     font-size: 24px;
- }
- footer{
-    background-color: rgb(41, 41, 41);;
+    text-align: center;
+    line-height: 40px;
+}
+
+footer {
+    background-color: rgb(41, 41, 41);
     height: 250px;
     padding-top: 10px;
-
+   
 }
-footer p a{
+
+footer p a {
     text-decoration: none;
     color: white;
-    
 }
-footer p a:hover{
+
+footer p a:hover {
     text-decoration: underline;
-    
 }
-i.fa{
-    height: 40px;
-    width: 25px;
-    margin-left: 5px;
-    
-    
- }
- i.material-icons{
-    text-align: center;
-    height: 40px;
-    width: 28px;
-    font-size: 24px;
- }
 
-
-
-
- @media screen and (min-width:576px) {
-    body{
+@media screen and (min-width: 576px) {
+    body {
         background-color: rgb(41, 41, 41);
     }
-    header{
+
+    header {
         background-image: url(imagens/imagens/png-removebg-preview.png);
-        background-color:rgb(41, 41, 41);
+        background-color: rgb(41, 41, 41);
         background-repeat: no-repeat;
         background-position: left top;
         background-size: 350px;
-        border-radius: 0px;
-        width: 100vw;
-        height:150px;
-        
-    }
-    div#imagem{
-        display: none;
-    }
-    section{
-        
-            height: 320px;
-            width: 600px;
-            background-color: rgb(245, 243, 243);
-            border: 1px solid black;
-            border-radius: 5px;
-            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.247);
-            
-        
-            position: absolute;
-            top: 50%;
-            left: 50%;
-        
-            transform: translate(-50%,-50%);
-            
-        
-    }
-    main{
-        height: 500px;
-    }
-    
-    input#att{
-        margin-left: 180px;
-    }
-    footer{
+        width: 100%;
         height: 150px;
     }
 
- }
+    div#imagem {
+        display: none;
+    }
+
+    section {
+        height: 320px;
+        width: 600px;
+        background-color: rgb(245, 243, 243);
+        border: 1px solid black;
+        border-radius: 5px;
+        box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.247);
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    main {
+        height: 500px;
+        width: 100vw;
+        
+    }
+
+    footer {
+        height: 150px;
+    }
+}
