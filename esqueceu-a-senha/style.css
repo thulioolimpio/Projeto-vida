@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     font-family: "Montserrat", sans-serif;
+    box-sizing: border-box;
 }
 
 ::-webkit-scrollbar {
@@ -45,17 +46,29 @@ section {
     height: 450px;
     width: 100%;
     padding: 20px;
-    box-sizing: border-box;
+    position: relative;
+    
+    
 }
 
 section h1 {
-    margin: 20px 0;
+    
     font-size: 1.5em;
+    margin: 20px 0px;
 }
 
 form p {
     text-align: center;
-    margin-top: 20px;
+    margin: 40px 0px;
+    
+}
+hr{
+   position: absolute;
+
+   right: 0px;
+   left: 0px;
+   
+    
 }
 
 input[type=email] {
@@ -65,11 +78,12 @@ input[type=email] {
     height: 40px;
     padding: 10px;
     box-sizing: border-box;
-    margin-top: 20px;
+    margin-bottom: 20px;
+    
 }
 
 form div {
-    margin-top: 50px;
+    margin-top: 20px;
     display: flex;
     justify-content: center;
     width: 50%;
@@ -85,6 +99,7 @@ input[type=submit], a#voltar {
     background-color: white;
     color: black;
     font-weight: bold;
+    font-size: 0.8em;
     border: 1px solid black;
     border-radius: 5px;
     text-align: center;
@@ -99,7 +114,7 @@ input[type=submit]:hover, a#voltar:hover {
 a#voltar{
     text-decoration: none;
     height: 38px;
-    font-size: 0.8EM;
+    font-size: 0.8em;
 }
 
 i.fa, i.material-icons {
