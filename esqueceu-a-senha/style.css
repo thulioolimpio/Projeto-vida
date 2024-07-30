@@ -87,7 +87,8 @@ form div {
     display: flex;
     justify-content: center;
     width: 50%;
-    margin-left: 110px;
+    margin: auto;
+    margin-top: 20px;
 }
 
 input[type=submit], a#voltar {
@@ -174,7 +175,7 @@ footer p a:hover {
     }
 
     main {
-        height: 500px;
+        height: 700px;
         width: 100vw;
         
     }
